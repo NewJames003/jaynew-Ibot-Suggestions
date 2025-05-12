@@ -20,7 +20,7 @@ const app = firebase.initializeApp(firebaseConfig);
 const database = firebase.database(app);
 
 // Reference to your database path
-const dbRef = firebase.database().ref('admins/001/LinkType');
+const dbRef = firebase.database().ref('admins/002/LinkType');
 
 // Fetch data from the database
 dbRef.on('value', (snapshot) => {
