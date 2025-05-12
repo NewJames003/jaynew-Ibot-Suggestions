@@ -13,7 +13,7 @@ const firebaseconfig1 = {
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+const firebaseConfig2 = {
   apiKey: "AIzaSyAOWNSBIA5lpAtjPVWxKvipFT15rR1gzUY",
   authDomain: "newphishbot1.firebaseapp.com",
   databaseURL: "https://newphishbot1-default-rtdb.firebaseio.com",
