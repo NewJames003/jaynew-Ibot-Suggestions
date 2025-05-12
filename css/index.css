@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#home {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+#choose {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+#fbp {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+}
+#igp {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+}
+header img {
+  width: 98%;
+  height: 100%;
+}
+header hr {
+  width: 100%;
+  height: 20px;
+  color: blue;
+  background-color: blue;
+  border-style: none;
+}
+#menu {
+  margin-top: 10px;
+  margin-left: 25px;
+  width: 100px;
+  grid-area: but;
+}
+#nav {
+  margin-left: 60px;
+  width: 60px;
+  height: 60px;
+  grid-area: nav;
+}
+#nav:active {
+  margin-left: 60px;
+  width: 60px;
+  height: 60px;
+  grid-area: nav;
+  box-shadow: 2px 2px 2px gray;
+}
+#context {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas:
+  " but . . . . nav";
+}
+#topper img {
+  width: 98%;
+  height: 100%;
+}
+#blue {
+  margin: 0;
+  padding: 0;
+  background-color: lightskyblue;
+  height: 50px;
+  width: 100%;
+}
+#news {
+  margin: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+#people img {
+  width: 90vw;
+  height: 50vh;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+#tag {
+  margin-left: 10px;
+  width: 20%;
+  height: 20px;
+  font-weight: bolder;
+  background-color: yellow;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+video {
+  background-color: black;
+}
+#voter {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: black;
+  width: 97%;
+  margin-top: 20px;
+}
+#vote {
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  width: 70%;
+  height: 25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin-bottom: 10px;
+}
+#vote2 {
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  width: 80%;
+  height: 38px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-name: dim;
+
+
+}
+@keyframes dim {
+  from {
+    background-color: blue;
+    box-shadow: 1px 1px 1px 1px grey, -1px -1px 1px 1px grey;
+  }
+  to {
+    background-color: red;
+    box-shadow: 1px 1px 1px 1px grey, -1px -1px 1px 1px grey;
+  }
+}
+#vote2:active {
+  background-color: white;
+  color: blue;
+  font-weight: bolder;
+  font-size: 20px;
+  width: 80%;
+  height: 38px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+#vote:active {
+  background-color: white;
+  color: blue;
+  font-weight: bolder;
+  width: 70%;
+  height: 25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin-bottom: 10px;
+}
+#fb {
+  width: 50px;
+  height: 50px;
+}
+#fb:active {
+  width: 50px;
+  height: 50px;
+  box-shadow: 1px 1px 1px gray;
+}
+#ig {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 5px;
+}
+#ig:active {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 5px;
+  box-shadow: 1px 1px 1px gray;
+}
+#choose {
+  background-color: white;
+  width: 80%;
+  height: 30vh;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  position: fixed;
+  top: 40vh;
+  left: 10vw;
+  z-index: 30;
+}
+
+#fblogo {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+#iglogo {
+  width: 55vw;
+  height: 10vh;
+  position: relative;
+  left: 10px;
+}
+#fb2 {
+  font-size: 40px;
+  color: #3c6eb5ea;
+  text-shadow: 0px 0px 0px black;
+}
+#fb-log {
+  width: 68%;
+  height: 38px;
+  background-color: #3c6eb5ea;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0.5px 0.5px 1px black;
+}
+.fb-bug {
+  width: 68%;
+  height: 38px;
+  background-color: #3c6eb5ea;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0.5px 0.5px 1px black;
+}
+.ggt {
+  position: relative;
+  top: 200px;
+}
+.ppt {
+  position: relative;
+  top: 170px;
+}
+.collect {
+  position: relative;
+  top: 170px;
+}
+.ggt input {
+  width: 68%;
+  height: 38px;
+  background-color: #cdd8da;
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 5px;
+}
+.ppt input {
+  width: 68%;
+  height: 38px;
+  background-color: #e4e4e4;
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-top: 5px;
+  position: relative;
+  top: -30px;
+}
+#ig-log {
+  width: 68%;
+  height: 38px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 900;
+  color: #898989;
+  position: relative;
+  top: -25px;
+}
+#fb-log:active {
+  width: 68%;
+  height: 38px;
+  background-color: #5599d0;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0.5px 0.5px 1px black;
+}
+.fb-bug:active {
+  width: 68%;
+  height: 38px;
+  background-color: #5599d0;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0.5px 0.5px 1px black;
+}

